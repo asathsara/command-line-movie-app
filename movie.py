@@ -8,6 +8,11 @@ class Movie:
         self.genre = genre
 
     def __str__(self):
-        return (f"ID: {self.movie_id}, Title: {self.title}, Director: {self.director}, "
-                f"Year: {self.release_year}, Genre: {self.genre}")
+        return (
+            f"\nID: {self.movie_id}\n"
+            f"Title: {self.title}\n"
+            f"Director: {self.director}\n"
+            f"Year: {self.release_year}\n"
+            f"Genre: {self.genre}\n"
+        )
     
